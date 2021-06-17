@@ -70,9 +70,6 @@ hr {
 .card:hover {
   transform: scale(1.05);
 }
-.card-image{
-filter: opacity(0.5);
-}
 #Fotos img {
   filter: grayscale(1);
   transition: 0.5s;
