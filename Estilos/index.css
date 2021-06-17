@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+header {
+  background-color: whitesmoke;
+}
+nav {
+  background-color: whitesmoke;
+}
+.carousel-indicators {
+  text-align: right;
+  float: right;
+  right: 2% !important;
+  left: inherit;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+#Servicios {
+  text-align: center;
+  margin: 20px;
+}
+#Servicios div {
+  text-align: center;
+  justify-content: center;
+}
+#Servicios p i {
+  font-size: 120px;
+  transition: 0.8s;
+}
+#Servicios p i:hover {
+  color: #fcee32;
+  font-size: 125px;
+}
+hr {
+  display: none;
+}
+.parallax1 {
+  background-image: url("../Imagenes/vansAmarillo.jpg");
+  min-height: 300px;
+  filter: grayscale(0.7);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  background-image: url("../Imagenes/vansRosa.jpeg");
+  min-height: 300px;
+  margin-top: 20px;
+  filter: grayscale(0.7);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.card{
+  transition: 0.5s;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+#Fotos img {
+  filter: grayscale(1);
+  transition: 0.5s;
+}
+#Fotos img:hover {
+  filter: grayscale(0);
+}
+footer {
+  color: #222831;
+  display: inline-flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+}
+footer li {
+  list-style: none;
+  display: inline-block;
+}
+footer a {
+  color: #222831;
+  transition: 0.8s;
+}
+footer a:hover {
+  color: #ff004c;
+}
+@media (max-width: 600px) {
+  #carrusel {
+    display: none;
+  }
+  #Servicios {
+    margin-top: 100px;
+  }
+  #Fotos {
+    display: none;
+  }
+  hr {
+    display: inherit;
+  }
+  #Invisible {
+    display: none;
+  }
+  #Menu {
+    display: none;
+  }
+}
